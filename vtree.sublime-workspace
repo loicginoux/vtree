@@ -1,0 +1,2446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"test",
+				"testbox4"
+			],
+			[
+				"nod",
+				"node1"
+			],
+			[
+				"event",
+				"eventSpy2"
+			],
+			[
+				"ev",
+				"eventSpy"
+			],
+			[
+				"eve",
+				"eventSpy2"
+			],
+			[
+				"aja",
+				"ajax"
+			],
+			[
+				"ajax",
+				"ajaxParameters"
+			],
+			[
+				"mo",
+				"mostRecentCall"
+			],
+			[
+				"getCh",
+				"getChildrenNodes"
+			],
+			[
+				"getC",
+				"getChildrenNodes"
+			],
+			[
+				"continue",
+				"continueBuilding"
+			],
+			[
+				"for",
+				"forceAjaxReload"
+			],
+			[
+				"fore",
+				"forceAjaxReload"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"des",
+				"des	describe"
+			],
+			[
+				"init",
+				"initially_open"
+			],
+			[
+				"force",
+				"forceAjaxReload"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"no",
+				"node3"
+			],
+			[
+				"node",
+				"node1"
+			],
+			[
+				"isOneDescendantC",
+				"isOneDescendantChecked"
+			],
+			[
+				"checked",
+				"checked"
+			],
+			[
+				"direc",
+				"directChild"
+			],
+			[
+				"is",
+				"isOneDescendantBold"
+			],
+			[
+				"great",
+				"greatChild"
+			],
+			[
+				"gre",
+				"greatChild"
+			],
+			[
+				"dire",
+				"directChild"
+			],
+			[
+				"bef",
+				"bef	before each"
+			],
+			[
+				"bold",
+				"bold"
+			],
+			[
+				"cas",
+				"cascading_bold"
+			],
+			[
+				"isOne",
+				"isOneDescendantChecked"
+			],
+			[
+				"ex",
+				"ex	expect"
+			],
+			[
+				"ini",
+				"initally_open"
+			],
+			[
+				"initally_d",
+				"initially_checked"
+			],
+			[
+				"expe",
+				"expectedCookie"
+			],
+			[
+				"fake",
+				"fakeCookie"
+			],
+			[
+				"cookie",
+				"cookieName"
+			],
+			[
+				"cook",
+				"cookieValue"
+			],
+			[
+				"cooki",
+				"cookieName"
+			],
+			[
+				"V",
+				"Vtree"
+			],
+			[
+				"op",
+				"OpenNodesFromCookie"
+			],
+			[
+				"open",
+				"opened"
+			],
+			[
+				"nodes",
+				"nodes"
+			],
+			[
+				"dis",
+				"disabled_checkboxes"
+			],
+			[
+				"tob",
+				"toBeTruthy"
+			],
+			[
+				"toBe",
+				"toBeFalsy"
+			],
+			[
+				"get",
+				"getNode"
+			],
+			[
+				"even",
+				"eventSpy"
+			],
+			[
+				"default",
+				"defaults"
+			],
+			[
+				"thbc",
+				"thbc	expect to have been called"
+			],
+			[
+				"toggle",
+				"toggleBold"
+			],
+			[
+				"spy",
+				"spy	spy on"
+			],
+			[
+				"function",
+				"function"
+			],
+			[
+				"tb",
+				"tb	expect to be"
+			],
+			[
+				"plugin",
+				"pluginName"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"attr",
+				"attrVal"
+			],
+			[
+				"core",
+				"coreDefaults"
+			],
+			[
+				"plu",
+				"pluginName"
+			],
+			[
+				"sett",
+				"settingsPlugins"
+			],
+			[
+				"thvc",
+				"toHaveBeenCalledWith"
+			],
+			[
+				"add",
+				"addPlugin"
+			],
+			[
+				"plg",
+				"pluginGroup"
+			],
+			[
+				"f",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/plugins/vtree.ajax_loading.js",
+			"settings":
+			{
+				"buffer_size": 4105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/vtree.spec.js",
+			"settings":
+			{
+				"buffer_size": 86519,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/spec/plugins-spec/ajax_loading.spec.js",
+			"settings":
+			{
+				"buffer_size": 8710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/spec/fixtures/sourceData_ajax.json",
+			"settings":
+			{
+				"buffer_size": 286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/spec/fixtures/ajaxData_children.json",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/spec/fixtures/sourceData.json",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/vtree.node.js",
+			"settings":
+			{
+				"buffer_size": 5751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/vtree.manager.js",
+			"settings":
+			{
+				"buffer_size": 3316,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/vtree.tree.js",
+			"settings":
+			{
+				"buffer_size": 3442,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 75 files for \"getChildrenNodes\"\n\n/Users/lginoux/Dropbox/work/Vtree/vtree/dist/js/vtree.js:\n  707  					// in order to display also the children and keep the state saved by the cookie\n  708  					.on(\"OpenNodesFromCookie.tree\", function(e, tree){\n  709: 						tree.getChildrenNodes(tree.initially_open);\n  710  					})\n  711  \n  ...\n  714  					.on(\"beforeInit.tree\", function(e, tree){\n  715  						if ($.inArray(\"cookie\", tree.plugins) == -1) { // the cookie plugin is not in tree\n  716: 							tree.getChildrenNodes(tree.initially_open);\n  717  \n  718  						}\n  ...\n  723  				},\n  724  \n  725: 				getChildrenNodes:function(nodes){\n  726  					if (!nodes.length) {\n  727  						this.continueBuilding();\n\n/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.ajax_loading.js:\n   46  					// in order to display also the children and keep the state saved by the cookie\n   47  					.on(\"OpenNodesFromCookie.tree\", function(e, tree){\n   48: 						tree.getChildrenNodes(tree.initially_open);\n   49  					})\n   50  \n   ..\n   53  					.on(\"beforeInit.tree\", function(e, tree){\n   54  						if ($.inArray(\"cookie\", tree.plugins) == -1) { // the cookie plugin is not in tree\n   55: 							tree.getChildrenNodes(tree.initially_open);\n   56  \n   57  						}\n   ..\n   62  				},\n   63  \n   64: 				getChildrenNodes:function(nodes){\n   65  					if (!nodes.length) {\n   66  						this.continueBuilding();\n\n/Users/lginoux/Dropbox/work/Vtree/vtree/test/vtree.spec.js:\n 1777  					beforeEach(function() {\n 1778  						appendSetFixtures(sandbox({id:\"testbox4\"}));\n 1779: 						spyOn(Vtree.Tree.constructor, \"getChildrenNodes\");\n 1780  \n 1781  						tree = Vtree.create({\n ....\n 1788  					});\n 1789  \n 1790: 					it(\"should call tree.getChildrenNodes with test_1\", function() {\n 1791: 						expect(Vtree.Tree.constructor.getChildrenNodes).toHaveBeenCalled();\n 1792: 						expect(Vtree.Tree.constructor.getChildrenNodes.mostRecentCall.args[0]).toBeArray([\"test_1\"]);\n 1793  					});\n 1794  				});\n 1795  			});\n 1796: 			describe(\"getChildrenNodes\", function() {\n 1797  				describe(\"when list of nodes passed in param is empty \", function() {\n 1798  					beforeEach(function() {\n ....\n 1820  							plugins:[pluginName]\n 1821  						});\n 1822: 						spyOn(tree, \"getChildrenNodes\");\n 1823  					});\n 1824  \n\n/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/ajax_loading.spec.js:\n  169  					beforeEach(function() {\n  170  						appendSetFixtures(sandbox({id:\"testbox4\"}));\n  171: 						spyOn(Vtree.Tree.constructor, \"getChildrenNodes\");\n  172  \n  173  						tree = Vtree.create({\n  ...\n  180  					});\n  181  \n  182: 					it(\"should call tree.getChildrenNodes with test_1\", function() {\n  183: 						expect(Vtree.Tree.constructor.getChildrenNodes).toHaveBeenCalled();\n  184: 						expect(Vtree.Tree.constructor.getChildrenNodes.mostRecentCall.args[0]).toBeArray([\"test_1\"]);\n  185  					});\n  186  				});\n  187  			});\n  188: 			describe(\"getChildrenNodes\", function() {\n  189  				describe(\"when list of nodes passed in param is empty \", function() {\n  190  					beforeEach(function() {\n  ...\n  212  							plugins:[pluginName]\n  213  						});\n  214: 						spyOn(tree, \"getChildrenNodes\");\n  215  					});\n  216  \n\n18 matches across 4 files\n\n\nSearching 75 files for \"getChildrenNodes\"\n\n/Users/lginoux/Dropbox/work/Vtree/vtree/dist/js/vtree.js:\n  707  					// in order to display also the children and keep the state saved by the cookie\n  708  					.on(\"OpenNodesFromCookie.tree\", function(e, tree){\n  709: 						tree.getChildrenNodes(tree.initially_open);\n  710  					})\n  711  \n  ...\n  714  					.on(\"beforeInit.tree\", function(e, tree){\n  715  						if ($.inArray(\"cookie\", tree.plugins) == -1) { // the cookie plugin is not in tree\n  716: 							tree.getChildrenNodes(tree.initially_open);\n  717  \n  718  						}\n  ...\n  723  				},\n  724  \n  725: 				getChildrenNodes:function(nodes){\n  726  					if (!nodes.length) {\n  727  						this.continueBuilding();\n\n/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.ajax_loading.js:\n   46  					// in order to display also the children and keep the state saved by the cookie\n   47  					.on(\"OpenNodesFromCookie.tree\", function(e, tree){\n   48: 						tree.getChildrenNodes(tree.initially_open);\n   49  					})\n   50  \n   ..\n   53  					.on(\"beforeInit.tree\", function(e, tree){\n   54  						if ($.inArray(\"cookie\", tree.plugins) == -1) { // the cookie plugin is not in tree\n   55: 							tree.getChildrenNodes(tree.initially_open);\n   56  \n   57  						}\n   ..\n   62  				},\n   63  \n   64: 				getChildrenNodes:function(nodes){\n   65  					if (!nodes.length) {\n   66  						this.continueBuilding();\n\n/Users/lginoux/Dropbox/work/Vtree/vtree/test/vtree.spec.js:\n 1777  					beforeEach(function() {\n 1778  						appendSetFixtures(sandbox({id:\"testbox4\"}));\n 1779: 						spyOn(Vtree.Tree.constructor, \"getChildrenNodes\");\n 1780  \n 1781  						tree = Vtree.create({\n ....\n 1788  					});\n 1789  \n 1790: 					it(\"should call tree.getChildrenNodes with test_1\", function() {\n 1791: 						expect(Vtree.Tree.constructor.getChildrenNodes).toHaveBeenCalled();\n 1792: 						expect(Vtree.Tree.constructor.getChildrenNodes.mostRecentCall.args[0]).toBeArray([\"test_1\"]);\n 1793  					});\n 1794  				});\n 1795  			});\n 1796: 			describe(\"getChildrenNodes\", function() {\n 1797  				describe(\"when list of nodes passed in param is empty \", function() {\n 1798  					beforeEach(function() {\n ....\n 1820  							plugins:[pluginName]\n 1821  						});\n 1822: 						spyOn(tree, \"getChildrenNodes\");\n 1823  					});\n 1824  \n\n/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/ajax_loading.spec.js:\n  169  					beforeEach(function() {\n  170  						appendSetFixtures(sandbox({id:\"testbox4\"}));\n  171: 						spyOn(Vtree.Tree.constructor, \"getChildrenNodes\");\n  172  \n  173  						tree = Vtree.create({\n  ...\n  180  					});\n  181  \n  182: 					it(\"should call tree.getChildrenNodes with test_1\", function() {\n  183: 						expect(Vtree.Tree.constructor.getChildrenNodes).toHaveBeenCalled();\n  184: 						expect(Vtree.Tree.constructor.getChildrenNodes.mostRecentCall.args[0]).toBeArray([\"test_1\"]);\n  185  					});\n  186  				});\n  187  			});\n  188: 			describe(\"getChildrenNodes\", function() {\n  189  				describe(\"when list of nodes passed in param is empty \", function() {\n  190  					beforeEach(function() {\n  ...\n  212  							plugins:[pluginName]\n  213  						});\n  214: 						spyOn(tree, \"getChildrenNodes\");\n  215  					});\n  216  \n\n18 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 6520,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "dist/js/vtree.js",
+			"settings":
+			{
+				"buffer_size": 36712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build.xml",
+			"settings":
+			{
+				"buffer_size": 1658,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Java/Ant.sublime-build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"lorem",
+				"Snippet: jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"stack",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"lin",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"lint",
+				"SublimeLinter: Background Linting"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Diff All"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/fixtures/sourceData_parents.json",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/core-spec/tree.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/fixtures/sourceData.json",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/core/vtree.node.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/checkbox/checkbox.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/ajax_cookie_bolding/ajax_loading.html",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/core/vtree.nodeStore.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/ajax_cookie_bolding/ajax_loading.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.bolding.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.checkbox.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/bolding.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/checkbox.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.cookie.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.xmlSource.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/json source/jsonSource.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/xml xource/xmlSource.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/json source/jsonSource.html",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.ajax_loading.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/ajax_loading.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/cookie.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/test-lib/Jasmine Test Runner_files/vtree.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/custom_matchers.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/cookies/cookies.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/build.xml",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/bolding/bolding.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/ajax loading and cookies/ajax_loading.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/core-spec/node.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/core/vtree.manager.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/core/vtree.tree.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/xmlSource.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/ajax loading and bolding/ajax_loading.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/.gitignore",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/core-spec/manager.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/vtree.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/plugins-spec/ajax_loading.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/manager.spec.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/vtree.sublime-project",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/core/vtree.utils.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/plugins/vtree.plugin_template.js",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/src/style/tree.css",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/JsFormat/Default (OSX).sublime-keymap",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/JSLint/JSLint.sublime-build",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/test/spec/tree.spec.js",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/User/runVtree.sublime-build",
+		"/Users/lginoux/Dropbox/work/Vtree/vtree/examples/ajax loading/ajax_loading.js",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to be defined.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to be falsy.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to be null.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to be truthy.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to equal.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to match.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/spy on.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/spy on and return.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/expect to contain.tmSnippet",
+		"/Users/lginoux/Library/Application Support/Sublime Text 2/Packages/Jasmine/Snippets/describe.tmSnippet"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getChildrenNodes",
+			"internalTree",
+			"before open",
+			"mostRecentCall",
+			"'sourceDat",
+			"label",
+			"node",
+			"isChecked",
+			"bold",
+			"this.tree",
+			"debugger",
+			"debugge",
+			"debugger",
+			"getOpenedNodes",
+			"readCookie",
+			"greatChild",
+			"cookie",
+			"getBol",
+			"initially_bold",
+			"readCookie",
+			"setCookie",
+			"-1",
+			"readCookie",
+			"setCookie",
+			"check",
+			"getOpenedNodes",
+			"casca",
+			"should get",
+			"onAjaxResponse",
+			"getBoldNodes",
+			"cascadin",
+			"initia",
+			"instance",
+			"insstance",
+			"isChecked",
+			"parent",
+			"parents",
+			"initially_bold",
+			"unbold",
+			"isBold",
+			"bold",
+			"bolding",
+			"toggleBold",
+			"Bold",
+			"bold",
+			"Bold",
+			"bold",
+			"unbold",
+			"getBoldNodes",
+			"for (",
+			"for",
+			"onAjaxResponse",
+			"OpenNodesFromCookie",
+			"getHTML",
+			"node",
+			"_attachEvents",
+			"tree",
+			"childs",
+			"parent",
+			"parents",
+			"this",
+			"open",
+			"toggleBold",
+			"parent",
+			"toggle",
+			"textContent",
+			"textConte",
+			"deb",
+			"debugger",
+			"+ ",
+			"		    return",
+			"	    ",
+			"var",
+			"nbSiblings",
+			"className",
+			"comments",
+			"authentication",
+			"><%= ",
+			"without_followees",
+			"format"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fetchChildren",
+			"+ \\n",
+			"p",
+			"class"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/plugins/vtree.ajax_loading.js",
+					"settings":
+					{
+						"buffer_size": 4105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								44
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/jQuery/Syntaxes/jQueryJavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/vtree.spec.js",
+					"settings":
+					{
+						"buffer_size": 86519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Jasmine/Syntaxes/Jasmine.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/spec/plugins-spec/ajax_loading.spec.js",
+					"settings":
+					{
+						"buffer_size": 8710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Jasmine/Syntaxes/Jasmine.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/spec/fixtures/sourceData_ajax.json",
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								260
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test/spec/fixtures/ajaxData_children.json",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test/spec/fixtures/sourceData.json",
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/core/vtree.node.js",
+					"settings":
+					{
+						"buffer_size": 5751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								698
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/core/vtree.manager.js",
+					"settings":
+					{
+						"buffer_size": 3316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1772,
+								1772
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 602.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/core/vtree.tree.js",
+					"settings":
+					{
+						"buffer_size": 3442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3331,
+								3342
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 6520,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										274,
+										290
+									],
+									[
+										511,
+										527
+									],
+									[
+										612,
+										628
+									],
+									[
+										966,
+										982
+									],
+									[
+										1203,
+										1219
+									],
+									[
+										1304,
+										1320
+									],
+									[
+										1608,
+										1624
+									],
+									[
+										1734,
+										1750
+									],
+									[
+										1821,
+										1837
+									],
+									[
+										1902,
+										1918
+									],
+									[
+										2031,
+										2047
+									],
+									[
+										2264,
+										2280
+									],
+									[
+										2532,
+										2548
+									],
+									[
+										2658,
+										2674
+									],
+									[
+										2745,
+										2761
+									],
+									[
+										2826,
+										2842
+									],
+									[
+										2955,
+										2971
+									],
+									[
+										3188,
+										3204
+									],
+									[
+										3535,
+										3551
+									],
+									[
+										3772,
+										3788
+									],
+									[
+										3873,
+										3889
+									],
+									[
+										4227,
+										4243
+									],
+									[
+										4464,
+										4480
+									],
+									[
+										4565,
+										4581
+									],
+									[
+										4869,
+										4885
+									],
+									[
+										4995,
+										5011
+									],
+									[
+										5082,
+										5098
+									],
+									[
+										5163,
+										5179
+									],
+									[
+										5292,
+										5308
+									],
+									[
+										5525,
+										5541
+									],
+									[
+										5793,
+										5809
+									],
+									[
+										5919,
+										5935
+									],
+									[
+										6006,
+										6022
+									],
+									[
+										6087,
+										6103
+									],
+									[
+										6216,
+										6232
+									],
+									[
+										6449,
+										6465
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3261,
+								3261
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"detect_indentation": false,
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"output_tag": 2,
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2443.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "dist/js/vtree.js",
+					"settings":
+					{
+						"buffer_size": 36712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "build.xml",
+					"settings":
+					{
+						"buffer_size": 1658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 334.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"test/spec/plugins-spec/ajax_loading.spec.js"
+			],
+			[
+				"tree",
+				"src/core/vtree.tree.js"
+			],
+			[
+				"mana",
+				"src/core/vtree.manager.js"
+			],
+			[
+				"node",
+				"src/core/vtree.node.js"
+			],
+			[
+				"source",
+				"test/spec/fixtures/sourceData.json"
+			],
+			[
+				"specaja",
+				"test/spec/plugins-spec/ajax_loading.spec.js"
+			],
+			[
+				"ajax",
+				"test/spec/plugins-spec/ajax_loading.spec.js"
+			],
+			[
+				"json",
+				"examples/json source/jsonSource.js"
+			],
+			[
+				"xml",
+				"src/plugins/vtree.xmlSource.js"
+			],
+			[
+				"cookie",
+				"test/spec/plugins-spec/cookie.spec.js"
+			],
+			[
+				"aja",
+				"src/plugins/vtree.ajax_loading.js"
+			],
+			[
+				"checkbox",
+				"test/spec/plugins-spec/checkbox.spec.js"
+			],
+			[
+				"check",
+				"src/plugins/vtree.checkbox.js"
+			],
+			[
+				"boldinspec",
+				"test/spec/plugins-spec/bolding.spec.js"
+			],
+			[
+				"bold",
+				"src/plugins/vtree.bolding.js"
+			],
+			[
+				"nodestore",
+				"src/core/vtree.nodeStore.js"
+			],
+			[
+				"bolding",
+				"src/plugins/vtree.bolding.js"
+			],
+			[
+				"cus",
+				"test/spec/custom_matchers.js"
+			],
+			[
+				"nodes",
+				"src/core/vtree.nodeStore.js"
+			],
+			[
+				"sour",
+				"test/spec/fixtures/sourceData.json"
+			],
+			[
+				"core",
+				"src/core/vtree.node.js"
+			],
+			[
+				"data",
+				"test/spec/fixtures/sourceData.json"
+			],
+			[
+				"cook",
+				"src/plugins/vtree.cookie.js"
+			],
+			[
+				"nodest",
+				"src/core/vtree.nodeStore.js"
+			],
+			[
+				"spectree",
+				"test/spec/core-spec/tree.spec.js"
+			],
+			[
+				"bo",
+				"src/plugins/vtree.bolding.js"
+			],
+			[
+				"spec",
+				"test/spec/plugins-spec/bolding.spec.js"
+			],
+			[
+				"coo",
+				"test/spec/plugins-spec/cookie.spec.js"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"build",
+				"build.xml"
+			],
+			[
+				"boldin",
+				"src/plugins/vtree.bolding.js"
+			],
+			[
+				"bolding.js",
+				"examples/bolding/bolding.js"
+			],
+			[
+				"specbol",
+				"test/spec/plugins-spec/bolding.spec.js"
+			],
+			[
+				"chec",
+				"src/plugins/vtree.checkbox.js"
+			],
+			[
+				"che",
+				"src/plugins/vtree.checkbox.js"
+			],
+			[
+				"specbold",
+				"test/spec/plugins-spec/bolding.spec.js"
+			],
+			[
+				"specnode",
+				"test/spec/core-spec/node.spec.js"
+			],
+			[
+				"man",
+				"src/core/vtree.manager.js"
+			],
+			[
+				"treesp",
+				"test/spec/core-spec/tree.spec.js"
+			],
+			[
+				"sourced",
+				"test/spec/fixtures/sourceData.json"
+			],
+			[
+				"vtcheck",
+				"src/plugins/vtree.checkbox.js"
+			],
+			[
+				"manage",
+				"test/spec/core-spec/manager.spec.js"
+			],
+			[
+				"treev",
+				"vtree/src/core/vtree.tree.js"
+			],
+			[
+				"index.js",
+				"app/views/comments/index.js.erb"
+			],
+			[
+				"application",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"index",
+				"app/views/authentications/index.html.erb"
+			],
+			[
+				"uc",
+				"app/controllers/users_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/lginoux/project/foodrubix.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true
+}
