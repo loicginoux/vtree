@@ -3,8 +3,15 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ul.thumbnails {
+	display: block;
+	position: relative;
+}
 
-
+ul.thumbnails > li {
+float: left;
+display: inline;
+}
 
 
 
