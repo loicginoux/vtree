@@ -2,15 +2,33 @@
 layout: default
 title: Examples
 ---
+
 <div class="row">
     <div class="span12">
         <h1>Examples</h1>
         <p>here is a list of examples, browse them to know more about each of them.</p>
         <br/>
         <ul class="thumbnails">
-            <li class="span4">
+
+<p>
+     {% for example in site.posts  %}
+                <li class="span4">
+                    <div class="thumbnail pagination-centered">
+                        <h4><a href="{{site.baseurl}}{{ example.url }}">{{example.title}}</a></h4>
+
+                        <a href="{{site.baseurl}}{{ example.url }}">
+                            <img src="{{site.baseurl}}/img/examples/{{ example.image }}" alt="{{ example.alt }}">
+                        </a>
+                        <a class="btn btn-large btn-block btn-primary" href="{{site.baseurl}}{{ example.url }}">Details</a>
+                    </div>
+                </li>
+
+            {% endfor %}
+
+
+           <!--  <li class="span4">
                 <div class="thumbnail pagination-centered">
-                    <h4><a href="examples/basic.html">basic tree</a></h4>
+                    <h4><a href="{{site.baseurl}}/examples/basic.html">basic tree</a></h4>
 
                     <a href="examples/basic.html">
                         <img src="img/examples/basic.jpg" alt="basic tree">
@@ -57,7 +75,7 @@ title: Examples
                     </a>
                     <a class="btn btn-large btn-block btn-primary" href="examples/eventHandling.html">Details</a>
                 </div>
-            </li>
+            </li> -->
         </ul>
 
     </div>

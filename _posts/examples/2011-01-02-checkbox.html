@@ -1,0 +1,94 @@
+---
+layout: example
+title: Basic example of a tree
+alt: basic tree preview
+image: basic.jpg
+---
+
+
+<h3>Code to implement this</h3>
+<div class="margin_50">
+{% highlight js%}
+// json data source
+var jsonSource = {
+	tree: {
+		id: "root",
+		nodes: [{
+			id: "master",
+			title: "master node",
+			description: "title of the master link",
+			hasChildren: true,
+			nodes: [{
+				id: "parent_1",
+				title: "parent 1",
+				description: "title of the parent 1 link",
+				hasChildren: true,
+				nodes: [{
+					id: "child_1",
+					title: "child 1",
+					description: "title of the child 1 link",
+					hasChildren: false
+				}]
+			},{
+				id: "parent_2",
+				title: "parent 2",
+				description: "title of parent 2 link",
+				hasChildren: false
+			}]
+		}]
+	}
+};
+
+// initialisation
+var tree = Vtree.create({
+	container: jQuery("#treeContainer"),
+	dataSource: jsonSource
+});
+
+{% endhighlight %}
+
+</div>
+
+
+
+<script type="text/javascript" id="jsonSource">
+var jsonSource = {
+	tree: {
+		id: "root",
+		nodes: [{
+			id: "master",
+			title: "master node",
+			hasChildren: true,
+			nodes: [{
+				id: "parent_1",
+				title: "parent 1",
+				hasChildren: true,
+				nodes: [{
+					id: "child_1",
+					title: "child 1",
+					hasChildren: false
+				}]
+			},{
+				id: "parent_2",
+				title: "parent 2",
+				hasChildren: true,
+				nodes: [{
+					id: "child_2",
+					title: "child 2",
+					hasChildren: false
+				}]
+			}]
+		}]
+	}
+};
+
+var tree = Vtree.create({
+	container: jQuery("#treeContainer"),
+	dataSource: jsonSource,
+	disabled_checkboxes: ["parent_2"],
+	initially_checked: ["child_1"],
+	dataSource:jsonSource,
+	plugins:["checkbox"]
+});
+</script>
+

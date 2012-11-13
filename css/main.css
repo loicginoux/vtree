@@ -14,10 +14,9 @@ display: inline;
 }
 
 
-
-
-
-
+#treeContainer, .margin_50{
+	margin:50px;
+}
 
 
 
