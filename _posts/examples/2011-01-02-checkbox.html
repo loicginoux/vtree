@@ -1,57 +1,24 @@
 ---
 layout: example
-title: Basic example of a tree
-alt: basic tree preview
-image: basic.jpg
+title: Checkbox tree
+treeContainerId: treeContainerCheckbox
+permalink: /examples/checkbox
 ---
 
 
 <h3>Code to implement this</h3>
-<div class="margin_50">
+
+<div class="accordion" id="accordion2">
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+				Json data source
+			</a>
+		</div>
+		<div id="collapseOne" class="accordion-body collapse">
+			<div class="accordion-inner">
 {% highlight js%}
-// json data source
-var jsonSource = {
-	tree: {
-		id: "root",
-		nodes: [{
-			id: "master",
-			title: "master node",
-			description: "title of the master link",
-			hasChildren: true,
-			nodes: [{
-				id: "parent_1",
-				title: "parent 1",
-				description: "title of the parent 1 link",
-				hasChildren: true,
-				nodes: [{
-					id: "child_1",
-					title: "child 1",
-					description: "title of the child 1 link",
-					hasChildren: false
-				}]
-			},{
-				id: "parent_2",
-				title: "parent 2",
-				description: "title of parent 2 link",
-				hasChildren: false
-			}]
-		}]
-	}
-};
-
-// initialisation
-var tree = Vtree.create({
-	container: jQuery("#treeContainer"),
-	dataSource: jsonSource
-});
-
-{% endhighlight %}
-
-</div>
-
-
-
-<script type="text/javascript" id="jsonSource">
+//json data source
 var jsonSource = {
 	tree: {
 		id: "root",
@@ -77,18 +44,51 @@ var jsonSource = {
 					title: "child 2",
 					hasChildren: false
 				}]
+			},{
+				id: "parent_3",
+				title: "parent 3",
+				hasChildren: true,
+				nodes: [{
+					id: "child_3",
+					title: "child 3",
+					hasChildren: false
+				}]
 			}]
 		}]
 	}
 };
 
+{% endhighlight %}
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+      	initialisation
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse in">
+      <div class="accordion-inner">
+
+{% highlight js%}
+//initialisation
 var tree = Vtree.create({
 	container: jQuery("#treeContainer"),
 	dataSource: jsonSource,
-	disabled_checkboxes: ["parent_2"],
-	initially_checked: ["child_1"],
+	disabled_checkboxes: ["parent_2"], //all children will be disabled too
+	initially_checked: ["child_1"], // all parents will be checked too
+	initially_open: ["parent_1", "parent_2", "parent_3"], // all parents will be open too
 	dataSource:jsonSource,
 	plugins:["checkbox"]
 });
-</script>
+
+{% endhighlight %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
 

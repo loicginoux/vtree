@@ -1,23 +1,24 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-ul.thumbnails {
-	display: block;
-	position: relative;
-}
 
-ul.thumbnails > li {
-float: left;
-display: inline;
+#treeContainer, .accordion{
+	margin:50px 0;
 }
 
 
-#treeContainer, .margin_50{
-	margin:50px;
+
+/* ==========================================================================
+   Examples
+   ========================================================================== */
+.thumbnails .well{
+	height: 115px;
 }
 
+.thumbnails .treeContainer{
+	display:inline-block;
+
+}
 
 
 

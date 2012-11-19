@@ -445,7 +445,6 @@ Vtree.plugins.defaults.core.node = {
 			},
 
 			toggleLoading: function (){
-				var titleTag = (this.customClass.indexOf("title") !== -1)? "h3" : "em";
 				var el = this.getEl();
 				var text = (el.hasClass("loading"))?this.title:"Loading...";
 				var title = el.toggleClass("loading").children("a.title, label");

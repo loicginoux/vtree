@@ -1,112 +1,88 @@
 ---
 layout: example
 title: Bolding tree
-alt: bolding tree preview
-image: bolding.jpg
+treeContainerId: treeContainerBolding
+permalink: /examples/bolding
 ---
 
-<h1>Basic example of a tree</h1>
 
-<div id="treeContainer" style="margin:50px"></div>
+<h2>Code to implement this</h2>
 
-<script type="text/javascript">
-jsonSource = {
+	<div class="accordion" id="accordion2">
+	  <div class="accordion-group">
+	    <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+	        Json data source
+	      </a>
+	    </div>
+	    <div id="collapseOne" class="accordion-body collapse">
+	      <div class="accordion-inner">
+{% highlight js%}
+// json data source
+var jsonSource = {
 	tree: {
 		id: "root",
 		nodes: [{
-			id: "test_1",
-			title: "title_1",
-			description: "title_1",
-			customClass: "title",
+			id: "master",
+			title: "master node",
+			description: "title of the master link",
 			hasChildren: true,
 			nodes: [{
-				id: "test_2",
-				title: "title_2",
-				description: "title_2",
-				iconClass: "default",
+				id: "parent_1",
+				title: "parent 1",
+				description: "title of the parent 1 link",
 				hasChildren: true,
 				nodes: [{
-					id: "test_3",
-					title: "title_3",
-					description: "title_3",
-					iconClass: "default",
-					hasChildren: true,
-					nodes: [{
-						id: "test_9",
-						title: "title_9",
-						description: "title_9",
-						iconClass: "customFolder",
-						hasChildren: false,
-						nodes: []
-					}]
-				}, {
-					id: "test_6",
-					title: "title_6",
-					description: "title_6",
-					hasChildren: true,
-					nodes: [{
-						id: "test_7",
-						title: "title_7",
-						description: "title_7",
-						hasChildren: false,
-						nodes: []
-					}]
-				}, {
-					id: "test_8",
-					title: "title_8",
-					description: "title_8",
-					iconClass: "customFolder",
-					hasChildren: false,
-					nodes: []
-				}, {
-					id: "test_9",
-					title: "title_9",
-					description: "title_9",
-					hasChildren: false,
-					nodes: []
+					id: "child_1",
+					title: "child 1",
+					description: "title of the child 1 link",
+					hasChildren: false
 				}]
-			}]
-		},{
-			id: "test_4",
-			title: "title_4",
-			description: "title_4",
-			hasChildren: true,
-			iconPath: {
-				open: "../images/icon_folder_open_16.png",
-				close: "../images/icon_folder_closed_16.png"
-			},
-			nodes: [{
-				id: "test_5",
-				title: "title_5",
-				description: "title_5",
-				iconClass: "customFolder",
+			},{
+				id: "parent_2",
+				title: "parent 2",
+				description: "title of parent 2 link",
 				hasChildren: false
 			}]
-		}, {
-			id: "a",
-			title: "a",
-			description: "a",
-			hasChildren: false,
-			iconPath: "../images/icon_folder_open_16.png"
-		}, {
-			id: "b",
-			title: "b",
-			description: "b",
-			hasChildren: false,
-			iconClass: "default"
-		}, {
-			id: "c",
-			title: "c",
-			description: "c",
-			hasChildren: false
-		} ]
+		}]
 	}
 };
+{% endhighlight %}
 
-Vtree.create({
-	container: jQuery("#treeContainer");,
-	initially_open: ["test_1", "test_4"],
-	dataSource: jsonSource
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordion-group">
+	    <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+	      	initialisation
+	      </a>
+	    </div>
+	    <div id="collapseTwo" class="accordion-body collapse in">
+	      <div class="accordion-inner">
+{% highlight js%}
+
+// initialisation
+var tree = Vtree.create({
+	container: jQuery("#treeContainer"),
+	dataSource: jsonSource,
+	initially_open: ["parent_1"], // all parents will be open too
+	initially_bold: ["parent_1"],  // all parents will be bold if cascading_bold is set to true
+	cascading_bold: false, // bolding or unbolding a node doesn't affect his parents or children, if set to true it reacts like the checkbox plugin
+	plugins:["bolding"]
 });
+
+{% endhighlight %}
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+
+
+<script type="text/javascript" id="jsonSource">
+
 </script>
 

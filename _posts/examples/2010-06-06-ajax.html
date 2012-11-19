@@ -1,0 +1,104 @@
+---
+layout: example
+title: Ajax tree
+treeContainerId: treeContainerAjax
+permalink: /examples/ajax
+---
+
+<h2>Code to implement this</h2>
+
+	<div class="accordion" id="accordion2">
+	  <div class="accordion-group">
+	    <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+	        Json data source
+	      </a>
+	    </div>
+	    <div id="collapseOne" class="accordion-body collapse">
+	      <div class="accordion-inner">
+{% highlight js%}
+// json data source
+var jsonSource = {
+	tree: {
+		id: "root",
+		nodes: [{
+			id: "master",
+			title: "master node",
+			description: "title of the master link",
+			hasChildren: true
+		}]
+	}
+};
+{% endhighlight %}
+
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordion-group">
+	    <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+	      	initialisation
+	      </a>
+	    </div>
+	    <div id="collapseTwo" class="accordion-body collapse in">
+	      <div class="accordion-inner">
+{% highlight js%}
+
+// initialisation
+var tree = Vtree.create({
+	container: jQuery("#treeContainer"),
+	dataSource: jsonSource,
+	ajaxUrl: "/your/ajax/url",
+	plugins: ["ajax_loading"],
+
+});
+
+{% endhighlight %}
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordion-group">
+	    <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+	      	data sent to server (when opening master node)
+	      </a>
+	    </div>
+	    <div id="collapseThree" class="accordion-body collapse">
+	      <div class="accordion-inner">
+{% highlight js%}
+{
+	action: "getChildren",
+	nodes: "master"
+}
+{% endhighlight %}
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordion-group">
+	    <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+	      	response from server (when opening master node)
+	      </a>
+	    </div>
+	    <div id="collapseFour" class="accordion-body collapse">
+	      <div class="accordion-inner">
+{% highlight js%}
+
+{
+	"master":{
+		nodes:[{
+			id: "parent_1",
+			title: "parent 1",
+			hasChildren: true
+		},{
+			id: "parent_2",
+			title: "parent 2",
+			hasChildren: false
+		}]
+	}
+}
+{% endhighlight %}
+	      </div>
+	    </div>
+	  </div>
+	</div>
