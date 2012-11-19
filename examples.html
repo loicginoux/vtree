@@ -13,73 +13,21 @@ title: Examples
      {% for example in site.posts  %}
                 <li class="span4">
                     <div class="thumbnail pagination-centered">
-                        <h4><a href="{{site.baseurl}}{{ example.url }}">{{example.title}}</a></h4>
+                        <h4><a href="{{site.baseurl}}/vtree/{{ example.url }}">{{example.title}}</a></h4>
 
                         <div class="well">
                             <div id="{{example.treeContainerId}}" class="treeContainer"></div>
-                            <script src="{{site.baseurl}}/js{{example.permalink}}.js"></script>
+                            <script src="{{site.baseurl}}/vtree/js{{example.permalink}}.js"></script>
 
                         </div>
-                        <!-- <a href="{{site.baseurl}}{{ example.url }}">
-                            <img src="{{site.baseurl}}/img/examples/{{ example.image }}" alt="{{ example.alt }}">
-                        </a> -->
-                        <a class="btn btn-large btn-block btn-primary" href="{{site.baseurl}}{{ example.url }}">Details</a>
+                        <a class="btn btn-large btn-block btn-primary" href="{{site.baseurl}}/vtree/{{ example.url }}">Details</a>
                     </div>
                 </li>
 
             {% endfor %}
 
 
-           <!--  <li class="span4">
-                <div class="thumbnail pagination-centered">
-                    <h4><a href="{{site.baseurl}}/examples/basic.html">basic tree</a></h4>
 
-                    <a href="examples/basic.html">
-                        <img src="img/examples/basic.jpg" alt="basic tree">
-                    </a>
-                    <a class="btn btn-large btn-block btn-primary" href="examples/basic.html">Details</a>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail pagination-centered">
-                    <h4><a href="examples/checkbox.html">checkbox tree</a></h4>
-
-                    <a href="examples/checkbox.html">
-                        <img src="img/examples/checkbox.jpg" alt="checkbox tree">
-                    </a>
-                    <a class="btn btn-large btn-block btn-primary" href="examples/checkbox.html">Details</a>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail pagination-centered">
-                    <h4><a href="examples/ajax.html">ajax loading tree</a></h4>
-
-                    <a href="examples/ajax.html">
-                        <img src="img/examples/ajax.jpg" alt="ajax loading tree">
-                    </a>
-                    <a class="btn btn-large btn-block btn-primary" href="examples/ajax.html">Details</a>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail pagination-centered">
-                    <h4><a href="examples/cookie.html">cookie tree</a></h4>
-
-                    <a href="examples/cookie.html">
-                        <img src="img/examples/cookie.jpg" alt="cookie tree">
-                    </a>
-                    <a class="btn btn-large btn-block btn-primary" href="examples/cookie.html">Details</a>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail pagination-centered">
-                    <h4><a href="examples/eventHandling.html">event handling</a></h4>
-
-                    <a href="examples/eventHandling.html">
-                        <img src="img/examples/eventHandling.jpg" alt="event handling tree">
-                    </a>
-                    <a class="btn btn-large btn-block btn-primary" href="examples/eventHandling.html">Details</a>
-                </div>
-            </li> -->
         </ul>
 
     </div>

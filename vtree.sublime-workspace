@@ -683,7 +683,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"{{site.baseurl}}/",
+			"{{site.baseurl}}/vtree/",
 			".html",
 			"checkbox",
 			"basic",
