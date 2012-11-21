@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="sidebar-nav span3">
+		<div class="well">
+			<ul class="nav nav-list">
+				<li class="nav-header">Core</li>
+				<li><a href="{{site.baseurl}}/api/vtree"><i class="icon-cog"></i>Vtree</a></li>
+				<li><a href="{{site.baseurl}}/api/tree"><i class="icon-cog"></i>tree</a></li>
+				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i>nodeStore</a></li>
+				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i>node</a></li>
+				<li class="nav-header">Plugins</li>
+				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> ajax</a></li>
+				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> checkbox</a></li>
+				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> cookies</a></li>
+				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> bolding</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="span9">
+
+		<h1>{{page.title}}</h1>
+
+		<h4>Description</h4>
+			{{content}}
+
+		<h4>Settings</h4>
+
+		{% for settings in site.posts  %}
+			{% if settings.post_type == 'variable' && settings.js_object == page.js_object %}
+				<div class="well">
+					<h6 class="title">{{settings.title}}</h6>
+					<dl class="dl-horizontal">
+
+						<dt>Type</dt>
+						<dd>{{settings.type}}</dd>
+						<dt>Default</dt>
+						<dd>{{settings.default}}</dd>
+						<dt>Description</dt>
+						<dd>{{settings.description}}</dd>
+					</dl>
+					<!-- <div class="type">Type:{{settings.type}}</div>
+					<div class="default">Default:{{settings.default}}</div>
+					<br/>
+					<div class="description">{{settings.description}}</div> -->
+				</div>
+			{% endif %}
+		{% endfor %}
+
+		<h4>Methods</h4>
+
+		{% for settings in site.posts  %}
+			{% if settings.post_type == 'method' && settings.js_object == page.js_object %}
+				<div class="well">
+					<div class="title">{{settings.title}}</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>

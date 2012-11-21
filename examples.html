@@ -9,25 +9,22 @@ title: Examples
         <p>here is a list of examples, browse them to know more about each of them.</p>
         <br/>
         <ul class="thumbnails">
+             {% for example in site.posts  %}
+                {% if example.layout == 'example'%}
+                    <li class="span4">
+                        <div class="thumbnail pagination-centered">
+                            <h4><a href="{{site.baseurl}}/{{ example.url }}">{{example.title}}</a></h4>
 
-     {% for example in site.posts  %}
-                <li class="span4">
-                    <div class="thumbnail pagination-centered">
-                        <h4><a href="{{site.baseurl}}/vtree/{{ example.url }}">{{example.title}}</a></h4>
+                            <div class="well">
+                                <div id="{{example.treeContainerId}}" class="treeContainer"></div>
+                                <script src="{{site.baseurl}}/js{{example.permalink}}.js"></script>
 
-                        <div class="well">
-                            <div id="{{example.treeContainerId}}" class="treeContainer"></div>
-                            <script src="{{site.baseurl}}/vtree/js{{example.permalink}}.js"></script>
-
+                            </div>
+                            <a class="btn btn-large btn-block btn-primary" href="{{site.baseurl}}/{{ example.url }}">Details</a>
                         </div>
-                        <a class="btn btn-large btn-block btn-primary" href="{{site.baseurl}}/vtree/{{ example.url }}">Details</a>
-                    </div>
-                </li>
-
+                    </li>
+                {% endif %}
             {% endfor %}
-
-
-
         </ul>
 
     </div>
