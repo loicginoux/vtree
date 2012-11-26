@@ -23,18 +23,47 @@
 /* ==========================================================================
    API
    ========================================================================== */
+.api{
+	min-height: 327px;
+}
 
-.dl-horizontal dt{
+.api .sidebar-nav.affix-top{
+	position:fixed;
+}
+
+.api .dl-horizontal dt{
 	text-align: left;
 	width: 120px;
 }
 
-.dl-horizontal dd{
+.api .dl-horizontal dd{
 	margin-left: 120px;
 }
 
+.api .settings{
+	padding: 5px 15px 0;
+}
 
+.settings dl.collapse{
+	padding-bottom:0;
+}
 
+.settings dd.last{
+	padding-bottom:20px;
+}
 
+.settings h4.title{
+	cursor: pointer;
+}
+.api .settings ul{
+	margin: 0;
+}
+.api .settings ul>li{
+	list-style: none;
+}
 
+.toggle_methods, .toggle_variables{
+    float: right;
+    margin-top: 20px;
+}
 

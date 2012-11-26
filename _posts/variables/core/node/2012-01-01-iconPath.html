@@ -1,0 +1,9 @@
+---
+post_type: variable
+title: iconPath
+js_object: node
+type: JSON object or String
+default: "{open:'', close:''}"
+description: this is used to define a url path for the icon of the node. If the node doesn't have chidren or it has uses always the same icon, you can simply use a string for the url path. If you want to display 2 different icons for the open and close state of the node then use the json object, specifying for each attribute "open" and "close" the URL path of the specific icon. Note that if you also use the attribute 'iconClass' of the node, iconPath will not be used to build the HTML of the node.
+
+---

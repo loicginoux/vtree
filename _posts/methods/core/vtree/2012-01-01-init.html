@@ -1,0 +1,17 @@
+---
+post_type: method
+js_object: vtree
+function: init
+title: init(settings, className)
+param1_name: settings
+param1_description: if this JSON object contains the attribute plugins as an Array of plugin names then, then each plugins is added to the class represented by classNmae
+param2_name: className
+param2_description: className is a string that can be either 'tree', 'node' or 'nodeStore'
+---
+
+this is used internally to attach all plugins to the object 'this'. Every core object have in their constructor something like:
+{% highlight js%}
+Vtree.init.apply(this, [settings, "<classname>"])
+{% endhighlight %}
+where classname is node, tree or nodeStore.
+what it actually does is attaching all core functions/variables and all plugin functions/variable to the className object.

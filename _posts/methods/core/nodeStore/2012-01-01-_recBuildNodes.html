@@ -1,0 +1,13 @@
+---
+post_type: method
+js_object: nodeStore
+function: _recBuildNodes
+title: _recBuildNodes(parent, parents, nodes)
+param1_name: parent
+param1_description: the direct parent Node object of the nodes passed in parameters
+param2_name: parents
+param2_description: the Array of parents Node object of the nodes passed in parameters
+param3_name: nodes
+param3_description: an Array of JSON object describing the nodes to build. this comes directly from the dataSource setting passed during initialization.
+description: this is a recursive function that build Nodes object from the parameters. When the function initStructure start calling this function like "_recBuildNodes( this.rootNode, [this.rootNode], dataSource)" it actually recursively build the whole internal node structure from the data source passed in paramters when initializing the tree. This also stores all the Node instances created internally in the id2NodeMap variable.
+---

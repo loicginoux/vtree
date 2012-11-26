@@ -1,0 +1,19 @@
+---
+post_type: method
+js_object: tree
+title: _attachEvents()
+function: _attachEvents
+returns: this.container - the jQuery object for the tree container
+---
+
+<p>attach all events for the nodes of the tree. For each events, it prefixes it with the namespace "node". Events are:</p>
+<ul>
+	<li>- click on li elements triggers a "click.node" event on container</li>
+	<li>- dblclick on li elements triggers a "dblclick.node" event on container</li>
+	<li>- contextmenu on li elements triggers a "contextmenu.node" event on container</li>
+	<li>- hover on li elements triggers a "hover.node" event on container</li>
+	<li>- click on $(".openClose") element, toggles the open close state
+All events with namespace ".node" pass in parametes the event, the node object and the tree object</li>
+</ul>
+
+

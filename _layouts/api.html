@@ -2,63 +2,109 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row api">
 	<div class="sidebar-nav span3">
 		<div class="well">
 			<ul class="nav nav-list">
 				<li class="nav-header">Core</li>
-				<li><a href="{{site.baseurl}}/api/vtree"><i class="icon-cog"></i>Vtree</a></li>
-				<li><a href="{{site.baseurl}}/api/tree"><i class="icon-cog"></i>tree</a></li>
-				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i>nodeStore</a></li>
-				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i>node</a></li>
+				<li><a href="{{site.baseurl}}/api/core/vtree"><i class="icon-cog"></i>Vtree</a></li>
+				<li><a href="{{site.baseurl}}/api/core/tree"><i class="icon-cog"></i>tree</a></li>
+				<li><a href="{{site.baseurl}}/api/core/nodestore"><i class="icon-cog"></i>nodeStore</a></li>
+				<li><a href="{{site.baseurl}}/api/core/node"><i class="icon-cog"></i>node</a></li>
 				<li class="nav-header">Plugins</li>
-				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> ajax</a></li>
-				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> checkbox</a></li>
-				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> cookies</a></li>
-				<li><a href="{{site.baseurl}}/api/"><i class="icon-cog"></i> bolding</a></li>
+				<li><a href="{{site.baseurl}}/api/plugins/ajax_loading"><i class="icon-cog"></i> ajax</a></li>
+				<li><a href="{{site.baseurl}}/api/plugins/checkbox"><i class="icon-cog"></i> checkbox</a></li>
+				<li><a href="{{site.baseurl}}/api/plugins/cookie"><i class="icon-cog"></i> cookies</a></li>
+				<li><a href="{{site.baseurl}}/api/plugins/bolding"><i class="icon-cog"></i> bolding</a></li>
 			</ul>
 		</div>
 	</div>
 
 
-	<div class="span9">
+	<div class="span9 offset3">
 
 		<h1>{{page.title}}</h1>
 
-		<h4>Description</h4>
-			{{content}}
+		<h2>Description</h2>
+		<p>{{content}}</p>
 
-		<h4>Settings</h4>
+		{% unless page.intro %}
+			<a class='toggle_variables'>toggle all</a>
+			<h2>Settings</h2>
 
-		{% for settings in site.posts  %}
-			{% if settings.post_type == 'variable' && settings.js_object == page.js_object %}
-				<div class="well">
-					<h6 class="title">{{settings.title}}</h6>
-					<dl class="dl-horizontal">
+			{% for settings in site.posts  %}
+				{% if settings.post_type == 'variable' and settings.js_object == page.js_object %}
+					<div class="well settings variables">
+						<h4 class="title" data-toggle="collapse" data-target="#{{settings.title}}">{{settings.title}}</h4>
+						<dl class="dl-horizontal collapse" id="{{settings.title}}">
 
-						<dt>Type</dt>
-						<dd>{{settings.type}}</dd>
-						<dt>Default</dt>
-						<dd>{{settings.default}}</dd>
-						<dt>Description</dt>
-						<dd>{{settings.description}}</dd>
-					</dl>
-					<!-- <div class="type">Type:{{settings.type}}</div>
-					<div class="default">Default:{{settings.default}}</div>
-					<br/>
-					<div class="description">{{settings.description}}</div> -->
-				</div>
-			{% endif %}
-		{% endfor %}
+							<dt>Type</dt>
+							<dd>{{settings.type}}</dd>
+							<dt>Default</dt>
+							<dd>{{settings.default}}</dd>
+							<dt>Description</dt>
+							<dd class="last">
+								{% if settings.description%}
+									{{settings.description}}
+								{% else %}
+									{{settings.content}}
+								{% endif %}
 
-		<h4>Methods</h4>
+							</dd>
+						</dl>
+					</div>
+				{% endif %}
+			{% endfor %}
 
-		{% for settings in site.posts  %}
-			{% if settings.post_type == 'method' && settings.js_object == page.js_object %}
-				<div class="well">
-					<div class="title">{{settings.title}}</div>
-				</div>
-			{% endif %}
-		{% endfor %}
+			<a class='toggle_methods'>toggle all</a>
+			<h2>Methods</h2>
+
+			{% for settings in site.posts  %}
+				{% if settings.post_type == 'method' and settings.js_object == page.js_object %}
+					<div class="well settings methods">
+						<h4 class="title" data-toggle="collapse" data-target="#{{settings.function}}">{{settings.title}}</h4>
+						<dl class="dl-horizontal collapse" id="{{settings.function}}">
+							<dt>Parameters</dt>
+							<dd>
+								{% if settings.param1_name%}
+									<ul>
+										<li>
+											{{settings.param1_name}} - {{settings.param1_description}}
+										</li>
+										{% if settings.param2_name%}
+										<li>
+											{{settings.param2_name}} - {{settings.param2_description}}
+										</li>
+										{% endif %}
+										{% if settings.param3_name%}
+										<li>
+											{{settings.param3_name}} - {{settings.param3_description}}
+										</li>
+										{% endif %}
+									</ul>
+								{% else %} -
+								{% endif %}
+
+							</dd>
+							<dt>Returns</dt>
+							<dd>
+								{% if settings.returns%}
+									{{settings.returns}}
+								{% else %} -
+								{% endif %}
+							</dd>
+							<dt>Description</dt>
+							<dd class="last">
+								{% if settings.description%}
+									{{settings.description}}
+								{% else %}
+									{{settings.content}}
+								{% endif %}
+							</dd>
+						</dl>
+					</div>
+				{% endif %}
+			{% endfor %}
+		{% endunless %}
 	</div>
 </div>

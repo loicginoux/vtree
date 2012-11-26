@@ -20,3 +20,5 @@ permalink: pretty
 
 # code highlight
 pygments: true
+
+paginate: 3
