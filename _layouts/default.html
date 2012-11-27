@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+    "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
 
@@ -7,99 +7,96 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Vtree - javascript tree component</title>
-        <meta name="description" content="Vtree javascript tree component ">
-        <meta name="viewport" content="width=device-width">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vtree - javascript tree component</title>
+    <meta name="description" content="Vtree javascript tree component ">
+    <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 80px;
-                padding-bottom: 40px;
-            }
-        </style>
-        <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/css/pygments.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css">
+    <style>
+    body {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    </style>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/pygments.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 
-        <link rel="stylesheet" href="{{site.baseurl}}/css/vtree/tree.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/css/vtree/custom.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/vtree/tree.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/vtree/custom.css">
 
-        <script src="{{site.baseurl}}/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{site.baseurl}}/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+    <script src="{{site.baseurl}}/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{site.baseurl}}/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-        <script src="{{site.baseurl}}/js/vendor/bootstrap.min.js"></script>
-
-
-        <script src="{{site.baseurl}}/js/main.js"></script>
-        <script src="{{site.baseurl}}/js/vtree.js"></script>
-
-    </head>
-    <body>
-
-{% if page.title == 'Home'%}
-    <a href="https://github.com/you"><img style="position: fixed; top: 0; right: 0; border: 0; z-index:1031;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-{% endif %}
+    <script src="{{site.baseurl}}/js/vendor/bootstrap.min.js"></script>
 
 
-	    <!--[if lt IE 7]>
-	        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-	    <![endif]-->
+    <script src="{{site.baseurl}}/js/main.js"></script>
+    <script src="{{site.baseurl}}/js/vtree.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+        {% if page.title == 'Home'%}
+        <a href="https://github.com/you"><img style="position: fixed; top: 0; right: 0; border: 0; z-index:1031;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+        {% endif %}
 
 
-	    <div class="navbar navbar-inverse navbar-fixed-top">
-	        <div class="navbar-inner">
-	            <div class="container">
-	                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                </a>
-	                <a class="brand" href="{{site.baseurl}}/">Vtree</a>
-	                <div class="nav-collapse collapse">
-	                    <ul class="nav">
-	                        <li><a href="{{site.baseurl}}/">Home</a></li>
-	                        <li><a href="{{site.baseurl}}/examples">Examples</a></li>
-	                        <li><a href="{{site.baseurl}}/api">API</a></li>
-	                        <li><a href="{{site.baseurl}}/documentation">Documentation</a></li>
-	                        <li><a href="{{site.baseurl}}/download">Download</a></li>
-	                        <li><a href="https://github.com/vtree/">Github</a></li>
-	                    </ul>
-	                </div><!--/.nav-collapse -->
-	            </div>
-	        </div>
-	    </div>
-
-	    <div class="container">
-
-			{{ content }}
-
-        	<hr>
+        <!--[if lt IE 7]>
+    	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
 
 
-            <footer>
-                <p>Vtree was made by <a href="http://loicginoux.com" target="_blank">Loic Ginoux</a> 2012. | Sponsored by <a href="http://www.vyre.com" target="_blank">Vyre Ltd.</a> | component under <a href="http://loicginoux.github.com/vtree/license">MIT license.</a></p>
-            </footer>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="{{site.baseurl}}/">Vtree</a>
+                    <div class="nav-collapse collapse">
+                       <ul class="nav">
+                           <li><a href="{{site.baseurl}}/">Home</a></li>
+                           <li><a href="{{site.baseurl}}/examples">Examples</a></li>
+                           <li><a href="{{site.baseurl}}/api">API</a></li>
+                           <li><a href="{{site.baseurl}}/documentation">Documentation</a></li>
+                           <li><a href="{{site.baseurl}}/download">Download</a></li>
+                           <li><a href="https://github.com/vtree/">Github</a></li>
+                       </ul>
+                   </div><!--/.nav-collapse -->
+               </div>
+           </div>
+       </div>
 
+        <div class="container content">
+            {{ content }}
         </div> <!-- /container -->
 
 
 
 
+        <footer>
+            <div class="in">
+                <p>Vtree was made by <a href="http://loicginoux.com" target="_blank">Loic Ginoux</a> 2012. | Sponsored by <a href="http://www.vyre.com" target="_blank">Vyre Ltd.</a> | component under <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0.</a></p>
+            </div>
+        </footer>
 
 
 
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
-    </body>
+    </div>
+</body>
 </html>
 
 

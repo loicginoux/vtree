@@ -2,5 +2,11 @@
 layout: api
 title: Checkbox API
 permalink: /api/plugins/checkbox
-
+js_object: checkbox
 ---
+
+<p>This plugin add a checkbox to a node. You can parameter the initial state of the checkbox and disable it. there is also a 'checkbox.node' event added to the container. The checkbox hierarchy behaviour is as following:</p>
+<ul>
+	<li>Checking a child node checks all his parents, but doesn't affect his children</li>
+	<li>Unchecking a parent node, uncheck all his children, bu doesn't affect his parents</li>
+</ul>
