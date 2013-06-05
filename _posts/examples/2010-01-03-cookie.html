@@ -66,8 +66,8 @@ var jsonSource = {
 var tree = Vtree.create({
 	container: jQuery("#treeContainer"),
 	dataSource: jsonSource,
-	initially_open: ["master", "parent_1"], //cookie preferences have priority over this setting
-	initially_checked: ["parent_1"], //cookie preferences have priority over this setting
+	initiallyOpen: ["master", "parent_1"], //cookie preferences have priority over this setting
+	initiallyChecked: ["parent_1"], //cookie preferences have priority over this setting
 	plugins:["checkbox", "cookie"]
 
 });

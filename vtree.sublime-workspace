@@ -469,7 +469,7 @@
 			],
 			[
 				"init",
-				"initially_open"
+				"initiallyOpen"
 			],
 			[
 				"force",

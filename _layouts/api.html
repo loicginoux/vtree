@@ -15,7 +15,6 @@ layout: default
 				<li><a href="{{site.baseurl}}/api/plugins/ajax_loading"><i class="icon-cog"></i> ajax</a></li>
 				<li><a href="{{site.baseurl}}/api/plugins/checkbox"><i class="icon-cog"></i> checkbox</a></li>
 				<li><a href="{{site.baseurl}}/api/plugins/cookie"><i class="icon-cog"></i> cookies</a></li>
-				<li><a href="{{site.baseurl}}/api/plugins/bolding"><i class="icon-cog"></i> bolding</a></li>
 			</ul>
 		</div>
 	</div>
@@ -29,14 +28,16 @@ layout: default
 		<p>{{content}}</p>
 
 		{% unless page.intro %}
-			<a class='toggle_variables'>toggle all</a>
-			<h2>Settings</h2>
 
+			{% unless page.no_settings %}
+				<a class='toggle_variables'>toggle all</a>
+				<h2>Settings</h2>
+			{% endunless %}
 			{% for settings in site.posts  %}
 				{% if settings.post_type == 'variable' and settings.js_object == page.js_object %}
 					<div class="well settings variables">
-						<h4 class="title" data-toggle="collapse" data-target="#{{settings.title}}">{{settings.title}}</h4>
-						<dl class="dl-horizontal collapse" id="{{settings.title}}">
+						<h4 class="title" data-toggle="collapse" data-target="#{% if settings.function%}{{settings.function}}{% else %}{{settings.title}}{% endif %}">{{settings.title}}</h4>
+						<dl class="dl-horizontal collapse" id="{% if settings.function%}{{settings.function}}{% else %}{{settings.title}}{% endif %}">
 
 							<dt>Type</dt>
 							<dd>{{settings.type}}</dd>
@@ -79,6 +80,9 @@ layout: default
 										{% if settings.param3_name%}
 										<li>
 											{{settings.param3_name}} - {{settings.param3_description}}
+										</li>
+										<li>
+											{{settings.param4_name}} - {{settings.param4_description}}
 										</li>
 										{% endif %}
 									</ul>

@@ -1,0 +1,17 @@
+---
+layout: documentation
+title: Write your own plugin
+permalink: /documentation/write-your-plugin
+---
+
+<p>If you need to write your own plugins there are few things to know before you get started. In no specific order:</p>
+<ul>
+	<li>There is a file called <a href="https://github.com/vtree/vtree/blob/master/src/plugins/vtree.plugin_template.js">vtree.plugin_template.js</a> that will help you starting your plugin. It has the basic structure of a plugin.</li>
+	<li>you will learn a lot by reading the code of other plugins.</li>
+	<li>if you add functionalities to an existing function, you must keep the same interface of the function (same arguments and returning the same object). If several plugins have the same function name, a function "this._call_prev()" must be called in order to call the other functions with the same name.For an example check the function getHTML from the "core" plugin and the getHTML function from the "checkbox" plugin. </li>
+	<li>Understand how the <a href="{{site.baseurl}}/documentation/framework-architecture">framework architecture</a> works.</li>
+	<li>Think that your plugin could potentially work with any combination of other plugins, so it shouldn't interfer with others.</li>
+	<li>Write test about your plugin.</li>
+	<li>Write documentation about your plugin.</li>
+	<li>Let us know on the github issue page, if you have any issue.</li>
+</ul>

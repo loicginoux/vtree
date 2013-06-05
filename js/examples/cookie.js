@@ -31,8 +31,8 @@
 	var treeCookie = Vtree.create({
 		container: jQuery("#treeContainerCookie"),
 		dataSource: jsonSourceCookie,
-		initially_open: ["master", "parent_1"], //cookie has priority over this setting
-		initially_checked: ["parent_1"], //cookie preferences have priority over this setting
+		initiallyOpen: ["master", "parent_1"], //cookie has priority over this setting
+		initiallyChecked: ["parent_1"], //cookie preferences have priority over this setting
 		plugins:["checkbox", "cookie"]
 	});
 })();

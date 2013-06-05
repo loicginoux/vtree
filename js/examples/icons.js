@@ -40,7 +40,7 @@ var tree = Vtree.create({
 			}]
 		}
 	},
-	initially_open: ["parent_1", "parent_2"] // all parents will be open too
+	initiallyOpen: ["parent_1", "parent_2"] // all parents will be open too
 });
 
 })();

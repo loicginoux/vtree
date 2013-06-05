@@ -1,0 +1,28 @@
+---
+layout: documentation
+title: Framework architecture
+permalink: /documentation/framework-architecture
+---
+
+<p>This will help you understand how the core of the framework works so that you can more easily add your own plugin.</p>
+<p>
+	There are 3 main classes and one global singleton:
+</p>
+<ul>
+	<li>singleton Vtree: This is the only global object, it is throught this one that you will create and manage trees on your page. It keeps a reference to all trees on the page.</li>
+	<li>class Vtree.tree: the tree object contains all the function relative the the tree.</li>
+	<li>class Vtree.node: a node object is created for each node on the tree.</li>
+	<li>class Vtree.nodeStore: this is the object that keeps the tree structure internally and store a reference to each node.</li>
+</ul>
+
+<p>When you create a tree, it creates internally a nodeStore. This node store then create all the node instances needed to display the tree before rendering it.</p>
+
+<p>By default these object don't have any methods neither any attributes. This is during instanciation that each class get his attributes and methods attached. The methods that a class gets depends on the plugin you pass in parameters.</p>
+<p>If you have a look at the code you will see that even the core functions are written like a plugin. their only difference is that it will be loaded for every instanciation of a tree.</p>
+
+<p>So when you write a plugin, you just add some functions and variable to the class, like a mixin would do. This way insure that the framework is modular and let you load only the code and plugins that you need.</p>
+
+<p>But what happens if you need to overwrite or add some code to an already existing method? Then you need to insure that all methods with the same name gets called as well. This is insure with the function "this._call_prev()". this function will just run the functions stored by the Vtree singleton which have the same name.</p>
+
+
+

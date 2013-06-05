@@ -1,0 +1,15 @@
+---
+post_type         : method
+js_object         : ajax
+function          : onAjaxResponse
+title             : tree.onAjaxResponse(request, data, response, jqXHR)
+description       : process the response from the server when requesting for nodes. if the server sends the response in another form than the one expected, use the function getAjaxData to transform its format. For each node in the response, it will add the data to the intern tree structure and this will be done in the order the nodes were requested.
+param1_name       : request
+param1_description: the array of requested nodes.
+param2_name       : data
+param2_description: the raw json response data from the server
+param3_name       : response
+param3_description:	the status message
+param4_name       : jqXHR
+param4_description: the ajax XHR object
+---

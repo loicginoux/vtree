@@ -1,0 +1,122 @@
+---
+layout: documentation
+title: Events fired
+permalink: /documentation/events
+---
+
+These are the different events that can be caught for your custom actions:
+
+<h2>Core events</h2>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>event name</th>
+			<th>when is it fired?</th>
+			<th>what parameters are passed</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>beforeInit.tree</td>
+			<td>before the tree get initialised</td>
+			<td>The tree object</td>
+		</tr>
+		<tr>
+			<td>rendered.tree</td>
+			<td>when the tree is rendered on the page</td>
+			<td>The tree object</td>
+		</tr>
+		<tr>
+		<tr>
+			<td>onReady.tree</td>
+			<td>when the tree is rendered on the page and all events are attached</td>
+			<td>The tree object</td>
+		</tr>
+		<tr>
+			<td>click.node</td>
+			<td>when the node is clicked</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>dblclick.node</td>
+			<td>when the node is double clicked</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>hover.node</td>
+			<td>when the node is hovered</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>contextmenu.node</td>
+			<td>when the node is right clicked</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>beforeOpen.node</td>
+			<td>Before the node is opened</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>afterOpen.node</td>
+			<td>after the node has been opened and all his children have been loaded.</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>beforeClose.node</td>
+			<td>before closing a node</td>
+			<td>The tree object, the node object</td>
+		</tr>
+		<tr>
+			<td>afterClose.node</td>
+			<td>after closing a node</td>
+			<td>The tree object, the node object</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Ajax plugin events</h2>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>event name</th>
+			<th>when is it fired?</th>
+			<th>what parameters are passed</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>afterChildrenLoaded.node</td>
+			<td>when the children of a node have been loaded after opening it.</td>
+			<td>The tree and the node</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h2>Checkbox plugin events</h2>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>event name</th>
+			<th>when is it fired?</th>
+			<th>what parameters are passed</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>check.node</td>
+			<td>when a node is checked</td>
+			<td>the tree, the node and a boolean "triggeredAutomaticly" to tell if it is fired manually or automatically (for example when a node got checked after that a child got manually checked). </td>
+		</tr>
+		<tr>
+			<td>uncheck.node</td>
+			<td>when a node is unchecked</td>
+			<td>the tree, the node and a boolean "triggeredAutomaticly" to tell if it is fired manually or automatically (for example when a node got checked after that a child got manually checked). </td>
+		</tr>
+	</tbody>
+</table>
+
+

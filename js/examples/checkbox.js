@@ -44,10 +44,26 @@ var jsonSource_checkbox = {
 var tree = Vtree.create({
 	container: jQuery("#treeContainerCheckbox"),
 	dataSource: jsonSource_checkbox,
-	disabled_checkboxes: ["parent_2"], //all children will be disabled too
-	initially_checked: ["child_1"], // all parents will be checked too
-	initially_open: ["parent_1", "parent_2", "parent_3"], // all parents will be open too
-	plugins:["checkbox"]
+
+	plugins:["checkbox"],
+	// otional. all parents will be open automatically.
+	initiallyOpen: ["parent_1", "parent_2", "parent_3"],
+	// optional. default value is true.
+	displayCheckbox: true,
+	// list of initially checked nodes
+	initiallyChecked: ["child_1"],
+	//optional. default value is 'checkParents'. Checking a node check all his parents automatically. In this case checking child_1 at initialisation checked all his parents.
+	checkBehaviour: "checkParents",
+	// optional. default value is 'checked'
+	checkedClass: "checked",
+	//optional. default value is 'uncheckChildren'. Unchecking a node uncheck all his children automatically
+	uncheckBehaviour: "uncheckChildren",
+	// a list of disabled nodes
+	disabledCheckboxes: ["parent_3"],
+	//optional. by default value is 'disableChildren'. in this case disabling parent_3 will disable automatically his children.
+	disableBehaviour: "disableChildren",
+	// optional. default value is "disabled". The class applied to disabled nodes.
+	disabledClass: "disabled",
 });
 
 })();

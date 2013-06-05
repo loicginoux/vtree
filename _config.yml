@@ -7,13 +7,14 @@ description: Vtree documentation Site
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/blog
-baseurl: /vtree
+baseurl:     '/vtree'
+# baseurl:     '/jekyll-boilerplate'
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 # url: http://yourdomain.com/
 
 # Continue compiling even if there are errors. Keep it true, unless troubleshooting.
-auto: true
+# auto: true
 
 # Makes pretty permalinks. See Jekyll docs for alternatives.
 permalink: pretty
@@ -22,3 +23,18 @@ permalink: pretty
 pygments: true
 
 paginate: 3
+
+safe:        false # GitHub Pages: "true"
+auto:        true # Default: "false"
+port: 4000
+
+source:      . # GitHub Pages: <your pages repo>
+destination: ./_site # GitHub Pages: <the build dir>
+plugins:     ./_plugins
+
+future:      true
+lsi:         false # GitHub Pages: "false"
+# pygments:    true # Default: "false". GitHub Pages: "true"
+markdown:    maruku
+# permalink:   date
+

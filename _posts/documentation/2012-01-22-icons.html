@@ -1,0 +1,74 @@
+---
+layout: documentation
+title: Styling and icons
+permalink: /documentation/styling-icons
+---
+
+
+<h2>Styling</h2>
+
+<p>There is a default styling provided with the framework in the file called vtree.css. Don't forget to include it to get the styling. you will also need the font and images if you want the default icons provided.</p>
+<p>If you need to add few small changes to your own tree, you can add it to the custom.css file.</p>
+
+<h2>Icons</h2>
+
+<p>If you need icons for your tree there are different ways to set them up. You can see it in action in the <a href="{{site.baseurl}}/examples/icons/">example about icons</a>.</p>
+
+<h3>IconPath attribute</h3>
+
+<p>You can directly includes the attribute iconPath in the data representing a node. </p>
+
+{% highlight js%}
+{
+	id: "parent",
+	title: "parent",
+	iconPath: {
+		open: "/img/icon/folder_open.png",
+		close: "/img/icon/folder_closed.png"
+	},
+	hasChildren: true,
+	nodes: [{
+		id: "child",
+		title: "child",
+		iconPath: "/img/icon/file.png"
+	}]
+}
+{% endhighlight %}
+
+
+<h3>IconClass attribute</h3>
+
+<p>Another way to do this is to set a custom icon class via the iconClass attribute. If a node has an inconClass attribute, it will be added to the element representing the icon. You will then have to manually define in your styling sheat the background image for this particular class.</p>
+<p>You have different icons by default.
+<ul>
+	<li>
+		First if you set the class to "default", an icon coming from a font will be displayed.
+	</li>
+	<li>
+		 Then there is a file called <i>custom.css</i> which has predefined rules for classes "customFolder" and "customFile" that points to the images <i>images/folder.png</i> and <i>images/file.png</i>. This is here to help you and can be removed or overwritten.
+	</li>
+</ul>
+
+{% highlight js%}
+// settings for a node
+{
+	id: "node",
+	title: "node",
+	iconClass: "customFile",
+	hasChildren: false
+}
+
+{% endhighlight %}
+
+{% highlight css%}
+// in your css
+.tree i.customFile {
+	background:url(images/file.png);
+}
+
+{% endhighlight %}
+
+
+
+
+
